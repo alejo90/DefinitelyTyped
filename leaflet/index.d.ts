@@ -910,6 +910,11 @@ declare namespace L {
         setStyle(style: StyleFunction): this;
 
         options: GeoJSONOptions;
+    
+        /**
+         * initialize GeoJson 
+         */
+        initialize(extendedFunction: any, layer: Layer, map: Map);
 
     }
 
